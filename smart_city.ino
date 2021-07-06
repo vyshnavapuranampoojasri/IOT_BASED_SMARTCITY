@@ -50,7 +50,7 @@ void SendMessage1()
   delay(1000);  // Delay of 1000 milli seconds or 1 second
   mySerial.println("AT+CMGS=\"+919346524441\"\r"); // Replace x with mobile number
   delay(1000);
-  mySerial.println("DUSTBIN FILLED at SRIT! please take the action IMMEDIATELY!!!");// The SMS text you want to send
+  mySerial.println("75% DUSTBIN IS FILLED at SRIT!!!");// The SMS text you want to send
   delay(100);
   mySerial.println((char)26);// ASCII code of CTRL+Z
   delay(1000);
@@ -69,7 +69,7 @@ void SendMessage2()
   delay(1000);  // Delay of 1000 milli seconds or 1 second
   mySerial.println("AT+CMGS=\"+919346524441\"\r"); // Replace x with mobile number
   delay(1000);
-  mySerial.println("DUSTBIN FILLED at SRIT! please clean the dustbin!!!");// The SMS text you want to send
+  mySerial.println("100% DUSTBIN IS FILLED at SRIT! please clean the dustbin!!!");// The SMS text you want to send
   delay(100);
   mySerial.println((char)26);// ASCII code of CTRL+Z
   delay(1000);
